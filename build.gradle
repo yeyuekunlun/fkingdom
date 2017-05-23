@@ -33,6 +33,8 @@ dependencies {
     compile 'org.slf4j:slf4j-api:1.7.21'
 	compile "org.springframework:spring-context:${springVersion}"
 	compile "org.springframework:spring-jdbc:${springVersion}"
+	compile "org.springframework:spring-aspects:$springVersion"
+	compile "org.aspectj:aspectjweaver:$aspectJVersion"
 	testCompile "org.springframework:spring-test:${springVersion}"
 	testCompile "com.github.stefanbirkner:system-rules:${systemRulesVersion}"
     // Declare the dependency for your favourite test framework you want to use in your tests.
